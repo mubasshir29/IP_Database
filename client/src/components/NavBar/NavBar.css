@@ -1,0 +1,42 @@
+.navbar-container{
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: purple;
+}
+.logo{
+    margin: 0;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+Link{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-container{
+    
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button{
+    border: none;
+    background-color: white;
+    color: purple;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}

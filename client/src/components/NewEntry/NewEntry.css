@@ -1,0 +1,32 @@
+.container{
+    width: 30%;
+    background-color: white;
+    border: 2px solid rgba(128, 0, 128,0.3);
+    border-radius: 5px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+}
+.title{
+    float: left;
+    color: purple;
+}
+.new-form{
+    width: 95%;
+    margin: auto;
+}
+
+.new-form > input{
+    width: 90%;
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgba(128, 0, 128,0.1);
+    font-size: 15px;
+}
+.save-button{
+    margin-top: 10px;
+    background-color: purple;
+    color: white;
+}

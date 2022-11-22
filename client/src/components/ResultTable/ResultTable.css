@@ -1,0 +1,28 @@
+.table-container{
+    width: 80%;
+    margin: 20px auto 0 auto;
+}
+.results{
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+    border-radius: 10px;
+}
+.table-head{
+    background-color: purple;
+    color: white;
+}
+
+td,th{
+    border: 1px solid purple;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(255, 249, 255);
+}
+tbody tr:hover{
+    background-color: rgb(201, 166, 201);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}

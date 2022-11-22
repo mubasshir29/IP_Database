@@ -1,0 +1,29 @@
+.searchbox-container{
+    width: 80%;
+    margin: 50px auto 0 auto;
+    padding: 10px;
+}
+
+.searchbox-form{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.searchbox{
+    width: 85%;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid purple 2px;
+}
+
+.search-button{
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 10%;
+    padding: 10px;
+}
